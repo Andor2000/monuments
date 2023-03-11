@@ -1,0 +1,124 @@
+/* чет с девушкой */
+.backMain {
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 500px;
+    background-image: url("../img/backMain2.jpg");
+    background-attachment: fixed;
+    padding-top: 40px;
+    background-size: cover;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, .6);
+    height: 500px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+.backMainForm {
+    margin-left: 20%;
+    width: 60%;
+    position: relative;
+    z-index: 1;
+}
+
+.backMainHeaderText {
+    text-align: left;
+    margin-top: auto;
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+.backMainText {
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.mainButt1 {
+    transition: .2s;
+    margin-top: 30px;
+    border: 1px solid #dd9933;
+    background: #dd9933;
+    border-radius: 25px;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 250px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+    z-index: 1;
+}
+
+.mainButt2 {
+    transition: .2s;
+    margin-top: 30px;
+    border: 1px solid #dd9933;
+    border-radius: 25px;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 250px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+    z-index: 1;
+}
+
+.mainButt2:hover {
+    background: #dd9933;
+    color: rgb(255, 255, 255);
+}
+
+.mainButt1:hover {
+    background: none;
+    color: rgb(255, 255, 255);
+}
+
+/*Тело главной страницы*/
+.mainBody {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.mainThemes {
+    padding:20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.mainThemes img {
+    transition: .3s;
+    width: 95%
+}
+
+.mainThemes img:hover {
+    transform: scale(1.02);
+}
+
+/* почему мы? */
+.whyAreWe {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.whyAreWeHeader{
+    font-weight: bold;
+    font-size:1.3rem ;
+}
+
+.whyAreWeBody{
+    font-size:1rem ;
+}
