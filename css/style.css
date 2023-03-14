@@ -36,7 +36,8 @@
 }
 
 .backMainText {
-    font-size: calc(15px + 10 * (100vw - 320px) / 880);;
+    font-size: calc(15px + 10 * (100vw - 320px) / 880);
+    ;
     margin-top: 15px;
     color: rgb(255, 255, 255);
 }
@@ -51,7 +52,7 @@
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
-     /* width: 250px; */
+    /* width: 250px; */
     height: 40px;
     display: block;
     text-align: center;
@@ -79,8 +80,9 @@
 }
 
 @media (min-width:576px) {
+
     .mainButt1,
-    .mainButt2{
+    .mainButt2 {
         max-width: 270px;
     }
 }
@@ -123,16 +125,40 @@
     width: 100%;
 }
 
-.whyAreWe > div{
+.whyAreWe>div {
     min-height: 80px;
     /* height: 120px; */
 }
 
-.whyAreWeHeader{
+.whyAreWeHeader {
     font-weight: bold;
-    font-size:calc(10px + 6 * (100vw - 320px) / 880) ;
+    font-size: calc(10px + 6 * (100vw - 320px) / 880);
 }
 
-.whyAreWeBody{
-    font-size:calc(8px + 6 * (100vw - 320px) / 880) ;
+.whyAreWeBody {
+    font-size: calc(8px + 6 * (100vw - 320px) / 880);
+}
+
+/* Футер */
+.footer {
+    width: 100%;
+    padding: 3rem;
+    color: white;
+    background: #1b2024;
+    margin-top: 50px;
+    font-family: Georgia, "Times New Roman";
+}
+
+.footerHeader {
+    padding: 12px;
+    white-space: nowrap;
+    border-radius: 20px;
+    border-bottom: 2px solid rgb(96, 215, 50);
+    font-size: calc(15px + 10 * (100vw - 320px) / 880);
+}
+
+.footerBody{
+    padding-left: 10px;
+    font-size: calc(10px + 8 * (100vw - 320px) / 880);
+    white-space: nowrap;
 }
